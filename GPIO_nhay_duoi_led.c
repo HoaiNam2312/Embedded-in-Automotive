@@ -7,7 +7,7 @@ void delay(uint32_t time){
 }
 
 void rccConfig(){
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
 }
 void gpioConfig(){
 	GPIO_InitTypeDef GPIO_InitStructure;
